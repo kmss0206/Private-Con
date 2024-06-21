@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>데이터 추출기</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #ADD8E6; /* 배경 하늘색 */
+        }
+
+        .button-container {
+            position: relative;
+            width: 380px;
+            height: 80px;
+            margin: 0 auto;
+        }
+
+        #extract, #stop {
+            font-size: 24px;
+            width: 150px;
+            height: 70px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            position: absolute;
+        }
+
+        #extract {
+            background-color: #4682B4; /* 파란색 */
+            color: white;
+            top: 50%;
+            left: 30px;
+            transform: translateY(-50%);
+        }
+
+        #extract:hover {
+            background-color: #4169E1; /* 어두운 파란색 */
+        }
+
+        #stop {
+            background-color: #FF6347; /* 빨간색 */
+            color: white;
+            top: 50%;
+            right: 30px;
+            transform: translateY(-50%);
+            display: none;
+        }
+
+        #stop:hover {
+            background-color: #FF4500; /* 어두운 빨간색 */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button id="extract">시작</button>
+        <button id="stop">끄기</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
