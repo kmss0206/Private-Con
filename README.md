@@ -3,7 +3,7 @@
 # Private-Con
 이용약관 개인정보 시각화 프로그램
 
-[![Watch the video]([https://img.youtube.com/vi/m0qJLplt9kw/0.jpg)](https://youtu.be/m0qJLplt9kw](https://www.youtube.com/watch?v=ITOVSJHcaOk))
+[![Watch the video](https://img.youtube.com/vi/ITOVSJHcaOk/0.jpg)](https://www.youtube.com/watch?v=ITOVSJHcaOk)
 
 ## 프로젝트 개요
 
